@@ -1,0 +1,12 @@
+{
+    "minimumVersion": 1,
+    "packages": [
+        {
+            "name": "Ardacaft Modpack",
+            "title": "Ardacraft Modpack",
+            "version": "1.4",
+            "location": "ardacraft_modpack.json",
+            "priority": 1
+        }
+    ]
+}

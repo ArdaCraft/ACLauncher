@@ -1,0 +1,442 @@
+{
+    "title": "Ardacraft Modpack",
+    "name": "Ardacraft Modpack",
+    "version": "1.4",
+    "minimumVersion": 2,
+    "librariesLocation": "libraries",
+    "objectsLocation": "objects",
+    "gameVersion": "1.7.10",
+    "features": [
+        {
+            "name": "CameraStudio",
+            "description": "CameraStudio allows you to make paths for recording and other various needs."
+        },
+        {
+            "name": "MAtmos",
+            "description": "MAtmos gives realistic sounds to the game."
+        },
+        {
+            "name": "ShadersMod",
+            "description": "ShadersMod gives realistic and better lighting (you need your own shader packs)."
+        }
+    ],
+    "tasks": [
+        {
+            "type": "file",
+            "hash": "6e589c4fe261f3aad6df7e0d3ce35cc86d9613ea",
+            "location": "6e/58/6e589c4fe261f3aad6df7e0d3ce35cc86d9613ea",
+            "to": "acblockspack/blockpack-conquest-2.2.zip",
+            "size": 1580591,
+            "userFile": true
+        },
+        {
+            "type": "file",
+            "hash": "d37a5123a8e95438150bdc2f4769dd166b9702a9",
+            "location": "d3/7a/d37a5123a8e95438150bdc2f4769dd166b9702a9",
+            "to": "acblockspack/blockpack-eriador-2.2.zip",
+            "size": 361787,
+            "userFile": true
+        },
+        {
+            "type": "file",
+            "hash": "85726ce889834f5796c2274de687deee502174cf",
+            "location": "85/72/85726ce889834f5796c2274de687deee502174cf",
+            "to": "mods/1.7.10-ForgeMod-ACBlocks-1.3.jar",
+            "size": 158011
+        },
+        {
+            "type": "file",
+            "hash": "0b75e409003b6b4954afed9ef673dbdc7da6b734",
+            "location": "0b/75/0b75e409003b6b4954afed9ef673dbdc7da6b734",
+            "to": "mods/liteloader-1.7.10.jar",
+            "size": 533903
+        },
+        {
+            "type": "file",
+            "hash": "fc5454b8f1aa9e776225a15c8f3afa2a0e542afe",
+            "location": "fc/54/fc5454b8f1aa9e776225a15c8f3afa2a0e542afe",
+            "to": "mods/mod_DaFlight_2.1r2_mc1.7.10.litemod",
+            "size": 119308
+        },
+        {
+            "type": "file",
+            "hash": "438b53f5652a3d443b37891c18ab37673a95095a",
+            "location": "43/8b/438b53f5652a3d443b37891c18ab37673a95095a",
+            "to": "mods/mod_voxelMap_1.5.5_for_1.7.10.litemod",
+            "size": 471623
+        },
+        {
+            "type": "file",
+            "hash": "cafcf27905a6974d8e5fc1e21c88ee900c03c5c1",
+            "location": "ca/fc/cafcf27905a6974d8e5fc1e21c88ee900c03c5c1",
+            "to": "mods/mod_worldeditcui_1.7.10_00_mc1.7.10.litemod",
+            "size": 90450
+        },
+        {
+            "type": "file",
+            "hash": "e4f39614b38d064b29884f2db7ea3a92c16d6dbb",
+            "location": "e4/f3/e4f39614b38d064b29884f2db7ea3a92c16d6dbb",
+            "to": "mods/MorePlayerModels_1.7.10b.jar",
+            "size": 827379
+        },
+        {
+            "type": "file",
+            "hash": "55d2ba400c4af8bcefdc96c5731173c822c2f398",
+            "location": "55/d2/55d2ba400c4af8bcefdc96c5731173c822c2f398",
+            "to": "mods/OptiFine_1.7.10_HD_B5.jar",
+            "size": 866473
+        },
+        {
+            "type": "file",
+            "hash": "8447608a1d3b20876cfca3085522e49926150149",
+            "location": "84/47/8447608a1d3b20876cfca3085522e49926150149",
+            "to": "mods/TabbyChat-1.7.10-1.11.1.65-fml.jar",
+            "size": 386316
+        },
+        {
+            "type": "file",
+            "hash": "c984d4ca259406341afce2559aeb74b425674dbb",
+            "location": "c9/84/c984d4ca259406341afce2559aeb74b425674dbb",
+            "to": "mods/BetterFoliage-1.0.3.jar",
+            "size": 327442
+        },
+        {
+            "type": "file",
+            "hash": "a7a2ffa6352190ed4c3e9544aec554d4abf3916a",
+            "location": "a7/a2/a7a2ffa6352190ed4c3e9544aec554d4abf3916a",
+            "to": "mods/BetterFoliage.json",
+            "size": 155
+        },
+        {
+            "type": "file",
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "CameraStudio"
+                ]
+            },
+            "hash": "5e442efb6553bee5e13fed501d4f8ade1de6e893",
+            "location": "5e/44/5e442efb6553bee5e13fed501d4f8ade1de6e893",
+            "to": "mods/CameraStudioV2.1710(mc1.7.10).zip",
+            "size": 188116
+        },
+        {
+            "type": "file",
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "MAtmos"
+                ]
+            },
+            "hash": "144e19a5c46215e3832dd0159a72325992d48ce4",
+            "location": "14/4e/144e19a5c46215e3832dd0159a72325992d48ce4",
+            "to": "mods/MAtmos_r28b__1.7.10.litemod",
+            "size": 407709
+        },
+        {
+            "type": "file",
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "ShadersMod"
+                ]
+            },
+            "hash": "1913c96fd6c46dbd2ec6a041da4893b87a391be1",
+            "location": "19/13/1913c96fd6c46dbd2ec6a041da4893b87a391be1",
+            "to": "mods/ShadersModCore-v2.3.28-mc1.7.10-f.jar",
+            "size": 214961
+        },
+        {
+            "type": "file",
+            "hash": "e80d9b3bf5085002218d4be59e668bac718abbc6",
+            "location": "e8/0d/e80d9b3bf5085002218d4be59e668bac718abbc6",
+            "to": "custom_jar.jar",
+            "size": 5256245
+        },
+        {
+            "type": "file",
+            "hash": "fbd1abff763c67bce3d57b2615a830e5819bb3ba",
+            "location": "fb/d1/fbd1abff763c67bce3d57b2615a830e5819bb3ba",
+            "to": "options.txt",
+            "size": 1430
+        },
+        {
+            "type": "file",
+            "hash": "9ee141a4925874c7a3b55527abc884286f451e1e",
+            "location": "9e/e1/9ee141a4925874c7a3b55527abc884286f451e1e",
+            "to": "optionsof.txt",
+            "size": 1241
+        },
+        {
+            "type": "file",
+            "hash": "4ce3867e0cadf10da56b30a2b1b914eaa3c52f4c",
+            "location": "4c/e3/4ce3867e0cadf10da56b30a2b1b914eaa3c52f4c",
+            "to": "optionsshaders.txt",
+            "size": 318
+        },
+        {
+            "type": "file",
+            "hash": "64d187067aff2f20f221e7a8ec17300ab141d176",
+            "location": "64/d1/64d187067aff2f20f221e7a8ec17300ab141d176",
+            "to": "resourcepacks/AC-Conquest 2.5.zip",
+            "size": 71202189
+        },
+        {
+            "type": "file",
+            "hash": "8f65bb8572d9e610ef8d1dfd3ef9f84089b5f5fc",
+            "location": "8f/65/8f65bb8572d9e610ef8d1dfd3ef9f84089b5f5fc",
+            "to": "resourcepacks/AC-msi_conversion.zip",
+            "size": 77001442
+        },
+        {
+            "type": "file",
+            "hash": "47f3ee912dbde951ad8089b8c6a34fc92913f632",
+            "location": "47/f3/47f3ee912dbde951ad8089b8c6a34fc92913f632",
+            "to": "resourcepacks/HymnsOfConquest_.zip",
+            "size": 74457280
+        },
+        {
+            "type": "file",
+            "hash": "aa4b75c9feb2ec9f9da5e24bd6ef3a1f0fdce6a3",
+            "location": "aa/4b/aa4b75c9feb2ec9f9da5e24bd6ef3a1f0fdce6a3",
+            "to": "resourcepacks/PresenceFootstepsOfficial.zip",
+            "size": 3485707
+        }
+    ],
+    "versionManifest": {
+        "id": "1.7.10",
+        "time": 1400088563000,
+        "releaseTime": 1400088563000,
+        "assets": "1.7.10",
+        "type": "release",
+        "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type} --tweakClass cpw.mods.fml.common.launcher.FMLTweaker",
+        "mainClass": "net.minecraft.launchwrapper.Launch",
+        "minimumLauncherVersion": 13,
+        "libraries": [
+            {
+                "name": "net.minecraftforge:forge:1.7.10-10.13.2.1291",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "net.minecraft:launchwrapper:1.11"
+            },
+            {
+                "name": "org.ow2.asm:asm-all:5.0.3"
+            },
+            {
+                "name": "com.typesafe.akka:akka-actor_2.11:2.3.3",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "com.typesafe:config:1.2.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-actors-migration_2.11:1.1.0",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-compiler:2.11.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-library:2.11.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-parser-combinators_2.11:1.0.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-reflect:2.11.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-swing_2.11:1.0.1",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "org.scala-lang:scala-xml_2.11:1.0.2",
+                "url": "http://files.minecraftforge.net/maven/"
+            },
+            {
+                "name": "lzma:lzma:0.0.1"
+            },
+            {
+                "name": "com.google.guava:guava:16.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.2.1"
+            },
+            {
+                "name": "com.mojang:authlib:1.5.16"
+            },
+            {
+                "name": "com.mojang:realms:1.3.5"
+            },
+            {
+                "name": "org.apache.commons:commons-compress:1.8.1"
+            },
+            {
+                "name": "org.apache.httpcomponents:httpclient:4.3.3"
+            },
+            {
+                "name": "commons-logging:commons-logging:1.1.3"
+            },
+            {
+                "name": "org.apache.httpcomponents:httpcore:4.3.2"
+            },
+            {
+                "name": "java3d:vecmath:1.3.1"
+            },
+            {
+                "name": "net.sf.trove4j:trove4j:3.0.3"
+            },
+            {
+                "name": "com.ibm.icu:icu4j-core-mojang:51.2"
+            },
+            {
+                "name": "net.sf.jopt-simple:jopt-simple:4.5"
+            },
+            {
+                "name": "com.paulscode:codecjorbis:20101023"
+            },
+            {
+                "name": "com.paulscode:codecwav:20101023"
+            },
+            {
+                "name": "com.paulscode:libraryjavasound:20101123"
+            },
+            {
+                "name": "com.paulscode:librarylwjglopenal:20100824"
+            },
+            {
+                "name": "com.paulscode:soundsystem:20120107"
+            },
+            {
+                "name": "io.netty:netty-all:4.0.10.Final"
+            },
+            {
+                "name": "com.google.guava:guava:15.0"
+            },
+            {
+                "name": "org.apache.commons:commons-lang3:3.1"
+            },
+            {
+                "name": "commons-io:commons-io:2.4"
+            },
+            {
+                "name": "commons-codec:commons-codec:1.9"
+            },
+            {
+                "name": "net.java.jinput:jinput:2.0.5"
+            },
+            {
+                "name": "net.java.jutils:jutils:1.0.0"
+            },
+            {
+                "name": "com.google.code.gson:gson:2.2.4"
+            },
+            {
+                "name": "com.mojang:authlib:1.5.21"
+            },
+            {
+                "name": "org.apache.logging.log4j:log4j-api:2.0-beta9"
+            },
+            {
+                "name": "org.apache.logging.log4j:log4j-core:2.0-beta9"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl:2.9.1"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl_util:2.9.1"
+            },
+            {
+                "name": "org.lwjgl.lwjgl:lwjgl-platform:2.9.1",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "net.java.jinput:jinput-platform:2.0.5",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                }
+            },
+            {
+                "name": "tv.twitch:twitch:5.16"
+            },
+            {
+                "name": "tv.twitch:twitch-platform:5.16",
+                "natives": {
+                    "linux": "natives-linux",
+                    "windows": "natives-windows-${arch}",
+                    "osx": "natives-osx"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                },
+                "rules": [
+                    {
+                        "action": "allow"
+                    },
+                    {
+                        "action": "disallow",
+                        "os": {
+                            "name": "linux"
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "tv.twitch:twitch-external-platform:4.5",
+                "natives": {
+                    "windows": "natives-windows-${arch}"
+                },
+                "extract": {
+                    "exclude": [
+                        "META-INF/"
+                    ]
+                },
+                "rules": [
+                    {
+                        "action": "allow",
+                        "os": {
+                            "name": "windows"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "launch": {
+        "flags": [
+            "-Dfml.ignoreInvalidMinecraftCertificates=true"
+        ]
+    }
+}
