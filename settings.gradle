@@ -1,3 +1,8 @@
 rootProject.name = 'launcher-parent'
 
 include 'launcher', 'launcher-fancy', 'launcher-builder', 'launcher-bootstrap', 'creator-tools'
+
+rootProject.children.each {
+    it.name = ('launcher' == it.name ? 'ArdaCraftLauncher' : it.name)
+    it.name = ('launcher-fancy' == it.name ? 'ArdaCraftLauncher-fancy' : it.name)
+}
