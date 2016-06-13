@@ -12,6 +12,7 @@ dependencies {
 }
 
 shadowJar {
+    baseName = 'ArdaCraftLauncher'
     dependencies {
         exclude(dependency('org.projectlombok:lombok'))
     }
