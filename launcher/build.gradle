@@ -1,7 +1,6 @@
 apply plugin: 'com.github.johnrengelman.shadow'
 
 jar {
-    baseName = 'ArdaCraftLauncher'
     manifest {
         attributes("Main-Class": "com.skcraft.launcher.Launcher")
     }
