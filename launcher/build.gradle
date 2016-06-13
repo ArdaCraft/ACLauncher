@@ -27,7 +27,7 @@ processResources {
 }
 
 shadowJar {
-    archiveName = 'ArdaCraftLauncher-${version}.${extension}'
+    baseName = 'ArdaCraftLauncher'
     dependencies {
         exclude(dependency('org.projectlombok:lombok'))
     }
