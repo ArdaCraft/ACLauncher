@@ -22,7 +22,6 @@ public class RedditLauncherFrame extends LauncherFrame {
     public RedditLauncherFrame(@NonNull final Launcher launcher) {
         super(launcher);
         setIcons();
-        setMinimumSize(new Dimension(720, 440));
     }
 
     @Override
@@ -103,6 +102,9 @@ public class RedditLauncherFrame extends LauncherFrame {
         root.add(center, BorderLayout.CENTER);
 
         add(root);
+
+        setMinimumSize(new Dimension(600, 350));
+        setPreferredSize(new Dimension(700, 420));
     }
 
     private void setIcons() {

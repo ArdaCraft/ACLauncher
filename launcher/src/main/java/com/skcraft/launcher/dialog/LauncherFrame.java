@@ -183,11 +183,11 @@ public class LauncherFrame extends JFrame {
             }
         });
 
-        final Component instance = this;
+        final JFrame frame = this;
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                ComponentScaler.scale(instance, launcher.getConfig().getWindowScale());
+                ComponentScaler.scale(frame, launcher.getConfig().getWindowScale());
             }
         });
     }
