@@ -88,8 +88,6 @@ public class RedditBackgroundPanel extends JPanel implements Runnable, ActionLis
 
         int index = 0;
         List<String> targets = RedditUtils.getBackgrounds(subreddit, postCount);
-        SwingUtilities.invokeLater(postInit());
-
         log.info(String.format("Found %s/%s backgrounds for subreddit: %s", targets.size(), postCount, subreddit));
         if (random) {
             Collections.shuffle(targets);
@@ -143,18 +141,8 @@ public class RedditBackgroundPanel extends JPanel implements Runnable, ActionLis
         return null;
     }
 
-    private Runnable postInit() {
-        return new Runnable() {
-            @Override
-            public void run() {
-                Dimension img = new Dimension(DEFAULT.getTo().getWidth(), DEFAULT.getTo().getHeight());
-                self().setMinimumSize(img);
-            }
-        };
-    }
-
     private static ImageFader defaultFader() {
-        BufferedImage blank = new BufferedImage(0x2d0, 0x1b8, BufferedImage.TYPE_INT_RGB);
+        BufferedImage blank = new BufferedImage(1, 1, BufferedImage.TYPE_INT_RGB);
         return new ImageFader(blank, blank, 1000L);
     }
 }

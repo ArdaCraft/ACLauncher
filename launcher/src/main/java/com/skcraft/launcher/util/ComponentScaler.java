@@ -42,6 +42,12 @@ public class ComponentScaler {
         component.setMinimumSize(min);
         component.setMaximumSize(max);
         component.setFont(font);
+
+        if (component instanceof JFrame) {
+            JFrame frame = (JFrame) component;
+            frame.pack();
+            frame.setLocationRelativeTo(null);
+        }
     }
 
     private static Font scaleFont(Font font, float scale) {
