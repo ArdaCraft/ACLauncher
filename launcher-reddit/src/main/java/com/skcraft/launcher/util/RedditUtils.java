@@ -90,6 +90,7 @@ public class RedditUtils {
                         if (source.has("url")) {
                             String url = source.get("url").asText();
                             if (!url.contains(".gif")) {
+                                url = url.replaceAll("amp;", "");
                                 collector.add(url);
                                 return;
                             }
